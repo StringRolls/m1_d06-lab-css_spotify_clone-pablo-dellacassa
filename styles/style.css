@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -46,7 +51,7 @@ li {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 20px;
 
 }
 
@@ -68,18 +73,62 @@ li {
     flex-wrap: wrap;
 }
 
-.icons {
-    font-size: 0.8em;
-    text-align: center;
-    box-sizing: border-box;
-    margin: 20px 10% 20px 10%;
-    width: 10%;
-    font-family:"Raleway", sans-serif;
-    font-size: 15px;
+.section2 {
+    display: flex;
 }
 
-.icons img {
-    width: 100px;
+.icons1 {
+    text-align: center;
+    margin: 20px 10% 20px 10%;
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.icons1 img{
+    display: flex;
+    height: 100px;
+}
+
+.icons2 {
+    text-align: center;
+    margin: 20px 10% 20px 10%;
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.icons2 img{
+    display: flex;
+    height: 100px;
+}
+
+.icons3 {
+    text-align: center;
+    margin: 20px 10% 20px 10%;
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.icons3 img{
+    display: flex;
+    height: 100px;
 }
 
 h4 {
@@ -100,9 +149,8 @@ p {
 .kanyeWestTitle {
     font-family:"Raleway", sans-serif;
     font-size: 20px;
-    display: block;
     text-align: left;
-    margin-top : -80;
+    margin-top : 20px;
     text-decoration: underline white;
     color: white;
 }
